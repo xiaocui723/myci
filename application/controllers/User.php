@@ -10,7 +10,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class User extends CI_Controller {
 
     public function login() {
-        $this->output->set_content_type('application/json')->set_output(__FUNCTION__);
-        return json_encode(array('user_id' => '123456', 'user_name' => 'bicycle'));
+        $this->output->set_content_type('application/json')->set_output(json_encode(array('user_id' => '123456', 'user_name' => 'bicycle')));
     }
 }
