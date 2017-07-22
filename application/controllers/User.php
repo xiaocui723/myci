@@ -6,7 +6,9 @@
  * Time: 18:57
  */
 
-class User
-{
+class User extends CI_Controller {
 
+    public function login() {
+        return json_encode(array('user_id' => '123456', 'user_name' => 'bicycle'));
+    }
 }
