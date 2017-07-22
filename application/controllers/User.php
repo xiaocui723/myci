@@ -5,6 +5,7 @@
  * Date: 2017/7/22
  * Time: 18:57
  */
+defined('BASEPATH') OR exit('No direct script access allowed');
 
 class User extends CI_Controller {
 
